@@ -113,6 +113,7 @@ const Timeline: React.FC = () => {
                     <img 
                       src={event.imageUrl} 
                       alt={event.title}
+                      referrerPolicy="no-referrer"
                       className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 filter sepia-[0.2] contrast-125 group-hover:sepia-0"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-stone-900 via-transparent to-transparent opacity-90"></div>
